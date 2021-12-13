@@ -133,7 +133,7 @@ async def start(client, message):
             InlineKeyboardButton('🧩 Kênh', url='https://t.me/joinchat/ug0cFfrfD3Q1MDll')
         ],
         [
-            InlineKeyboardButton('👨🏼‍🦯 Công cụ', callback_data='help_main'),
+            InlineKeyboardButton('👨🏼‍🦯 Công cụ', callback_data='help_play'),
             InlineKeyboardButton('🗑 Đóng', callback_data='close'),
         ]
     ]
