@@ -2,10 +2,10 @@ echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
   echo "Nhân bản chi nhánh chính...."
-  git clone https://github.com/VietnamHub/VideoPlayerTG /VideoPlayerTG
+  git clone https://github.com/VietnamHub/owo/ /VideoPlayerTG
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/VietnamHub/VideoPlayerTG -b $BRANCH /VideoPlayerTG
+  git clone https://github.com/VietnamHub/owo/ -b $BRANCH /VideoPlayerTG
 fi
 cd /VideoPlayerTG
 pip3 install -U -r requirements.txt
